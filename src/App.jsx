@@ -6,7 +6,8 @@ const App = () => {
   return (
     <div className="container">
       <header>
-        <h1 className="logo">TREND <span className="bars">▇ ▆ ▅</span></h1>
+        <img src="/logo.png" alt="TREND Logo" className="h-16 drop-shadow-xl" />
+
         <button className="account-btn">Account</button>
       </header>
 
