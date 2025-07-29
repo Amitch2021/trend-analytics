@@ -6,9 +6,22 @@ const App = () => {
   return (
     <div className="container">
       <header>
-        <img src="/logo.png" alt="TREND Logo" className="h-02 drop-shadow-xl" />
+       <header className="flex items-center justify-between border-b border-green-500/30 pb-4 mb-6">
+  {/* Logo on the left */}
+  <div className="flex items-center">
+    <img
+      src="/logo.png"
+      alt="TREND Analytics Logo"
+      className="h-10 w-auto object-contain"
+    />
+  </div>
 
-        <button className="account-btn">Account</button>
+  {/* Account Button on the right */}
+  <Button className="border border-green-400 text-green-300 hover:bg-green-600/10 rounded-xl px-4 py-2 text-sm">
+    Account
+  </Button>
+</header>
+
       </header>
 
       <div className="table-wrapper">
