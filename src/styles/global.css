@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  background: #0f0f0f;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+.container {
+  padding: 20px;
+}
+.logo {
+  color: #22c55e;
+  font-size: 32px;
+}
+.bars {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.account-btn {
+  float: right;
+  background: none;
+  border: 1px solid #22c55e;
+  color: #22c55e;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.table-wrapper {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  background: #22c55e;
+  color: #000;
+  padding: 10px;
+  text-align: left;
+}
+td {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+.locked {
+  filter: blur(2px);
+  color: #555;
+}
+.highlight {
+  background: #064e3b;
+  color: #22c55e;
+}
+.unlock {
+  text-align: center;
+  margin-top: 20px;
+}
+.unlock button {
+  background: none;
+  border: 1px solid #22c55e;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #22c55e;
+  cursor: pointer;
+}

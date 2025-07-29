@@ -1,0 +1,38 @@
+[
+  {
+    "rank": 1,
+    "player": "Patrick Mahomes",
+    "position": "QB",
+    "matchup": "vs LAC",
+    "score": 91,
+    "avg3": 245,
+    "last": 210,
+    "oppAvg": 278,
+    "delta": "+35",
+    "prop": 265.5
+  },
+  {
+    "rank": 2,
+    "player": "Josh Allen",
+    "position": "QB",
+    "matchup": "@ NYJ",
+    "score": 82,
+    "avg3": 231,
+    "last": 201,
+    "oppAvg": 260,
+    "delta": "+30",
+    "prop": 250.0
+  },
+  {
+    "rank": 3,
+    "player": "LOCKED",
+    "position": "--",
+    "matchup": "--",
+    "score": null,
+    "avg3": null,
+    "last": null,
+    "oppAvg": null,
+    "delta": null,
+    "prop": null
+  }
+]
