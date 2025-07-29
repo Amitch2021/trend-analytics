@@ -5,30 +5,34 @@ import './styles/global.css';
 const App = () => {
   return (
     <div className="container">
-      <header>
-       <header className="flex items-center justify-between border-b border-green-500/30 pb-4 mb-6">
-  {/* Logo on the left */}
-  <div className="flex items-center">
-    <img
-      src="/logo.png"
-      alt="TREND Analytics Logo"
-      className="h-10 w-auto object-contain"
-    />
-  </div>
-
-  {/* Account Button on the right */}
-  <Button className="border border-green-400 text-green-300 hover:bg-green-600/10 rounded-xl px-4 py-2 text-sm">
-    Account
-  </Button>
-</header>
-
+      {/* Header with Logo and Account Button */}
+      <header className="flex items-center justify-between border-b border-green-500/30 pb-4 mb-6">
+        <div className="flex items-center">
+          <img
+            src="/logo.png"
+            alt="TREND Analytics Logo"
+            className="h-10 w-auto object-contain"
+          />
+        </div>
+        <button className="border border-green-400 text-green-300 hover:bg-green-600/10 rounded-xl px-4 py-2 text-sm">
+          Account
+        </button>
       </header>
 
+      {/* Table */}
       <div className="table-wrapper">
         <table>
           <thead>
             <tr>
-              <th>Player</th><th>Pos</th><th>Matchup</th><th>Score</th><th>3G Avg</th><th>Last</th><th>Opp Avg</th><th>Delta</th><th>Prop</th>
+              <th>Player</th>
+              <th>Pos</th>
+              <th>Matchup</th>
+              <th>Score</th>
+              <th>3G Avg</th>
+              <th>Last</th>
+              <th>Opp Avg</th>
+              <th>Delta</th>
+              <th>Prop</th>
             </tr>
           </thead>
           <tbody>
@@ -48,6 +52,8 @@ const App = () => {
           </tbody>
         </table>
       </div>
+
+      {/* Unlock Button */}
       <div className="unlock">
         <button>🔓 Unlock Full Rankings</button>
       </div>
